@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Data_Structure.Codes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,11 +46,11 @@ namespace Project_Data_Structure.Formularios
             switch (searchMethod)
             {
                 case "Secuencial":
-                    result = Search_Algorithms.SequentialSearch(data, key);
+                    result = SearchAlgorithmos.SequentialSearch(data, key);
                     break;
 
                 case "Binaria":
-                    result = Search_Algorithms.BinarySearch(data, key);
+                    result = SearchAlgorithmos.BinarySearch(data, key);
                     break;
 
                 default:

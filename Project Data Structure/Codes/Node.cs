@@ -42,4 +42,17 @@ namespace Project_Data_Structure.Codes
             Prev = null;
         }
     }
+    internal class Node_HASH
+    {
+        public int Key;  // Clave del par clave-valor
+        public string Value;  // Valor asociado a la clave
+        public Node_HASH Next;  // Apuntador al siguiente nodo
+
+        public Node_HASH(int key, string value)
+        {
+            Key = key;
+            Value = value;
+            Next = null;
+        }
+    }
 }
